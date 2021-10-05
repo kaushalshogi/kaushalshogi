@@ -1,0 +1,10 @@
+package com.xworkz.myjdbc;
+
+public class Laptop {
+	String Name;
+	String color;
+	int prize;
+	
+	
+
+}
