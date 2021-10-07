@@ -10,7 +10,8 @@ public class JdbcProg {
 		String url="jdbc:mysql://localhost:3306/employeedetails";
 		String userName="root";
 		String password="Shogi@461676";
-		
+		String sqlInsert="insert into ";
+
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			Connection connection = DriverManager.getConnection(url,userName,password);
@@ -23,12 +24,12 @@ public class JdbcProg {
 		{
 			System.out.println(classnotfoundexe.getMessage());
 		}
-		
-		
-		
-		
+
+
+
+
 
 	}
-	
+
 
 }
